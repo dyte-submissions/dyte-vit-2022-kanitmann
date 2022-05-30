@@ -3,11 +3,9 @@
 import chalk from "chalk";
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers'
-import reads from "./read.js"
+// import reads from "./read.js"
 
 console.log(chalk.bgRed("Welcome to ") + chalk.black(chalk.bgBlue("Destro")));
-
-var sentence = utils.parseSentence(yargs.argv._);
 
 
 const y = yargs()

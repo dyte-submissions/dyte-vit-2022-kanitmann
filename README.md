@@ -186,7 +186,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the GNU GPL-3.0 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -206,9 +206,7 @@ Project Link: [https://github.com/dyte-submissions/dyte-vit-2022-kanitmann/repo_
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Kanit Mann](https://github.com/kanitmann)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -227,5 +225,5 @@ Project Link: [https://github.com/dyte-submissions/dyte-vit-2022-kanitmann/repo_
 [license-shield]: https://img.shields.io/github/license/dyte-submissions/dyte-vit-2022-kanitmann/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/dyte-submissions/dyte-vit-2022-kanitmann/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/kanitmann
 [product-screenshot]: images/screenshot.png

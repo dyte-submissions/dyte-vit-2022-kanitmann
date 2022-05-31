@@ -2,8 +2,16 @@
 
 import chalk from "chalk";
 import yargs from 'yargs';
-import { hideBin } from 'yargs/helpers'
+import { hideBin } from 'yargs/helpers';
+import pretty from "pretty";
+import figlet from "figlet";
+
 // import reads from "./read.js"
+console.log(
+  chalk.yellow(
+    figlet.textSync('Index2', { horizontalLayout: 'full' })
+  )
+);
 
 console.log(chalk.bgRed("Welcome to ") + chalk.black(chalk.bgBlue("Destro")));
 

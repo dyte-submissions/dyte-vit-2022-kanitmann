@@ -8,7 +8,14 @@ import figlet from "figlet";
 import { createSpinner } from "nanospinner";
 import {parse} from "csv-parse";
 import fs from "fs";
+import pretty from "pretty";
 import yargs from "yargs";
+
+console.log(
+  chalk.yellow(
+    figlet.textSync('Index1', { horizontalLayout: 'full' })
+  )
+);
 
 let pathName = "";
 

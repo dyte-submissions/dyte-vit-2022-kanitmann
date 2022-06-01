@@ -33,7 +33,7 @@
 
 <h3 align="center">Destro -  A Distribution Management CLI Tool</h3>
 
-  <p>
+  <p aligh="left">
     A lot of our microservices are written in Node.js and making sure that the dependencies for these services are up to date can be a bit of a hassle. This CLI solves this Problem.
 
   Given a list of Github repositories, assuming all of them are node js projects with a `package.json` and `package-lock.json` in the root, and the name and version of a dependency, we want to give the current version of that dependency and tell if the version is greater than or equal to the version specified or not.
@@ -131,10 +131,9 @@ This is an example of how to list things you need to use the software and how to
    npm install -g .
    ```
 4. Run the Destro tool
-
-  ```sh
-  destro --help
-  ```
+    ```sh
+    destro --help
+    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

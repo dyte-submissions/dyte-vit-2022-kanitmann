@@ -2,9 +2,9 @@
   "name": "dyte-vit-2022-kanitmann",
   "version": "1.0.0",
   "description": "",
-  "main": "bin/index.js",
+  "main": "bin/compiled.js",
   "bin": {
-    "destro": "./bin/index2.js"
+    "destro": "./bin/compiled.js"
   },
   "type": "module",
   "scripts": {
@@ -25,15 +25,20 @@
     "chalk": "^5.0.1",
     "chalk-animation": "^2.0.2",
     "cheerio": "^1.0.0-rc.11",
+    "cli-frames": "^2.2.10",
     "csv": "^6.1.0",
+    "csv-parse": "^5.1.0",
     "express": "^4.18.1",
+    "fast-csv": "^4.3.6",
     "figlet": "^1.5.2",
     "fs": "^0.0.1-security",
+    "get-package-json-from-github": "^1.2.1",
     "gradient-string": "^2.0.1",
     "inquirer": "^8.2.4",
     "inquirer-autocomplete-prompt": "^2.0.0",
     "nanospinner": "^1.1.0",
     "node-fetch": "^3.2.4",
+    "ora": "^6.1.0",
     "pretty": "^2.0.0",
     "yargs": "^17.5.1"
   }

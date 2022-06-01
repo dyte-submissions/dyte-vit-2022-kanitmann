@@ -10,9 +10,14 @@ console.log(
   )
 );
 
+let findstr = "cors";
+
+// Repo JSON Fetch Code
 import getPackageJsonFromGithub from 'get-package-json-from-github';
 
 getPackageJsonFromGithub('git+https://github.com/kanitmann/Muses-Mini-backend.git')
   .then(packageJson => {
+    var pos = packageJson.dependencies[findstr];
+    console.log(pos);
     console.log('packageJson', packageJson.dependencies);
   });

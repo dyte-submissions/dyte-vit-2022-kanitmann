@@ -47,7 +47,6 @@ function animation1()
 ];
 
 
-// Load frames when creating the instance
 new CliFrames({
     frames: ["3", "2", "1"]
   , autostart: {
@@ -65,6 +64,26 @@ new CliFrames({
 });
 }
 
+
+// sample cases
+
+let findstr = "cors";
+let depVer = "";
+let checkVer = "";
+
+// Repo JSON Fetch Code
+import getPackageJsonFromGithub from 'get-package-json-from-github';
+
+getPackageJsonFromGithub('git+https://github.com/kanitmann/Muses-Mini-backend.git')
+  .then(packageJson => {
+    depVer = packageJson.dependencies[findstr];
+    console.log(depVersion);
+    // console.log('packageJson', packageJson.dependencies);
+  });
+
+
+
+// Read CSV Code
 async function readCSV() {
   fs.createReadStream("./bin/" + pathName)
       .pipe(parse({ delimiter: ",", from_line: 2 }))
@@ -78,6 +97,9 @@ async function readCSV() {
           console.log(error.message);
       });
 }
+
+
+// CLI Commands Code
 
 const y = yargs()
 y.version('v1.0.1')

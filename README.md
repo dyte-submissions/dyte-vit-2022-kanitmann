@@ -28,12 +28,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/dyte-submissions/dyte-vit-2022-kanitmann">
-    <img src="images/Destro.png" alt="Logo" width="80" height="80">
+    <img src="images/Destro.png" alt="Logo" width="120" height="90">
   </a>
 
 <h3 align="center">Destro -  A Distribution Management CLI Tool</h3>
 
-  <p align="center">
+  <p>
     A lot of our microservices are written in Node.js and making sure that the dependencies for these services are up to date can be a bit of a hassle. This CLI solves this Problem.
 
   Given a list of Github repositories, assuming all of them are node js projects with a `package.json` and `package-lock.json` in the root, and the name and version of a dependency, we want to give the current version of that dependency and tell if the version is greater than or equal to the version specified or not.
@@ -132,9 +132,9 @@ This is an example of how to list things you need to use the software and how to
    ```
 4. Run the Destro tool
 
-```sh
-destro --help
-```
+  ```sh
+  destro --help
+  ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -218,8 +218,8 @@ Project Link: [https://github.com/dyte-submissions/dyte-vit-2022-kanitmann/](htt
 [stars-url]: https://github.com/kanitmann/Metasploit_Exploit/stargazers
 [license-shield]: https://img.shields.io/github/license/kanitmann/Muses-Mini-frontend?style=for-the-badge&logo=appveyor
 [license-url]: https://github.com/kanitmann/Muses-Mini-frontend/blob/master/LICENSE.txt
-[made-with-shield]: https://img.shields.io/github/languages/top/kanitmann/Muses-Mini-frontend?style=for-the-badge
-[made-with-url]: https://shields.io/github/languages/top/kanitmann/Muses-Mini-frontend.svg?style-for-the-badge
+[made-with-shield]: https://img.shields.io/github/languages/top/kanitmann/ocrApiTesting?style=for-the-badge
+[made-with-url]: https://shields.io/github/languages/top/kanitmann/ocrApiTesting.svg?style-for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/kanitmann
 [product-screenshot]: images/Screenshot.png

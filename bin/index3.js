@@ -1,4 +1,5 @@
 #! /usr/bin/env node
+// https://docs.github.com/en/rest/pulls/pulls#create-a-pull-request
 
 import chalk from "chalk";
 import figlet from "figlet";
@@ -9,19 +10,9 @@ console.log(
   )
 );
 
-import fetch from "node-fetch";
+import getPackageJsonFromGithub from 'get-package-json-from-github';
 
-const getNames = async() => {
-  try {
-    const names = await fetch('https://github.com/dyte-submissions/dyte-vit-2022-kanitmann/blob/main/package.json');
-    const textData = await names.text();
-    return textData;
-  } catch (err) {
-    console.log('fetch error', err);
-  }
-};
-
-(async () => {
-  const getText = await getNames();
-  console.log(getText)
-})();
+getPackageJsonFromGithub('git+https://github.com/kanitmann/Muses-Mini-backend.git')
+  .then(packageJson => {
+    console.log('packageJson', packageJson.dependencies);
+  });

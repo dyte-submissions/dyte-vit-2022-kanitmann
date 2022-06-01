@@ -15,7 +15,7 @@ console.log(
   )
 );
 
-console.log(chalk.bgRed("Welcome to ") + chalk.black(chalk.bgBlue("Destro")));
+console.log(chalk.bgRed("Welcome to Destro"));
 
 let pathName = "";
 
@@ -90,5 +90,3 @@ if(argv[0] == "-i")
 }
 
 y.parse(process.argv.slice(2))
-
-console.log(chalk.bgGreen("Hello World"));

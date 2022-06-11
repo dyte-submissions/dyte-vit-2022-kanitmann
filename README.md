@@ -198,16 +198,16 @@ Project Link: [https://github.com/dyte-submissions/dyte-vit-2022-kanitmann/](htt
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/kanitmann/Metasploit_Exploit.svg?style=for-the-badge
-[contributors-url]: https://github.com/kanitmann/Metasploit_Exploit/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kanitmann/Metasploit_Exploit.svg?style=for-the-badge
-[forks-url]: https://github.com/kanitmann/Metasploit_Exploit/network/members
-[stars-shield]: https://img.shields.io/github/stars/kanitmann/Metasploit_Exploit.svg?style=for-the-badge
-[stars-url]: https://github.com/kanitmann/Metasploit_Exploit/stargazers
-[license-shield]: https://img.shields.io/github/license/kanitmann/Muses-Mini-frontend?style=for-the-badge&logo=appveyor
-[license-url]: https://github.com/kanitmann/Muses-Mini-frontend/blob/master/LICENSE.txt
-[made-with-shield]: https://img.shields.io/github/languages/top/kanitmann/ocrApiTesting?style=for-the-badge
-[made-with-url]: https://shields.io/github/languages/top/kanitmann/ocrApiTesting.svg?style-for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/kanitmann/dyte-vit-2022-kanitmann.svg?style=for-the-badge
+[contributors-url]: https://github.com/kanitmann/dyte-vit-2022-kanitmann/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dyte-submissions/dyte-vit-2022-kanitmann.svg?style=for-the-badge
+[forks-url]: https://github.com/dyte-submissions/dyte-vit-2022-kanitmann/network/members
+[stars-shield]: https://img.shields.io/github/stars/kanitmann/dyte-vit-2022-kanitmann.svg?style=for-the-badge
+[stars-url]: https://github.com/kanitmann/dyte-vit-2022-kanitmann/stargazers
+[license-shield]: https://img.shields.io/github/license/kanitmann/dyte-vit-2022-kanitmann?style=for-the-badge&logo=appveyor
+[license-url]: https://github.com/kanitmann/dyte-vit-2022-kanitmann/blob/master/LICENSE.txt
+[made-with-shield]: https://img.shields.io/github/languages/top/kanitmann/dyte-vit-2022-kanitmann?style=for-the-badge
+[made-with-url]: https://shields.io/github/languages/top/kanitmann/dyte-vit-2022-kanitmann.svg?style-for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/kanitmann
 [product-screenshot]: images/Screenshot.png
